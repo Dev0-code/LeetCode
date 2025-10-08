@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isPowerOfThree = function(n) {
-    if(n<=0) return false
+    if(n<1) return false
     for(let i=0;Math.pow(3,i)<=n;i++){
         if(n === Math.pow(3,i)){
             return true
